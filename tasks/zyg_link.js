@@ -160,6 +160,7 @@ module.exports = function (grunt) {
                 return tmp.join('');
             }
             finalHTML = buildFinalHTML(htmlTree);
+            finalHTML =  finalHTML.replace(/^<ul><li>/,'').replace(/<\/li><\/ul>$/,'');
 
             var destHtmls = grunt.file.read(dest);
             destHtmls = destHtmls.replace(insertRegExp,startTag+finalHTML+endTag);
