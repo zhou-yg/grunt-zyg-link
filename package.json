@@ -1,7 +1,7 @@
 {
   "name": "grunt-zyg-link",
   "description": "The best Grunt plugin ever.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/zyg/grunt-zyg-link",
   "author": {
     "name": "zhou-yg",

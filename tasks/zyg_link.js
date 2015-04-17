@@ -28,8 +28,8 @@ module.exports = function (grunt) {
         var options = this.options();
 
         var startTag = options.startTag || defaultStartTag,
-            endTag = options.endTag || defaultStartTag,
-            fileTmpLink = options.fileTmpLink || defaultStartTag;
+            endTag = options.endTag || defaultEndTag,
+            fileTmpLink = options.fileTmpLink || defaultFileTmpLink;
 
         var insertRegExp = new RegExp(startTag+'[\\w\\W]*'+endTag,'g');
 
